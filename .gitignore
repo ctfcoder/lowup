@@ -86,3 +86,13 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Plugins VS code
+.vscode/
+.history/
+
+#jsDocs
+out/
+
+package-lock.json
+.prettierrc.js
