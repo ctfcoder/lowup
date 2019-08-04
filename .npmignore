@@ -1,1 +1,6 @@
 src/
+img/
+test/
+.babelrc
+.nycrc
+Readme.md
