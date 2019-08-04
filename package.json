@@ -2,8 +2,9 @@
   "name": "lowup",
   "version": "1.0.0",
   "description": "A simple module to Upper-Lower Case whatever you want...",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src --out-dir lib",
     "test": "nyc mocha test --require babel-register"
   },
   "repository": {
