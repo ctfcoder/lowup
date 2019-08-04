@@ -132,5 +132,21 @@ const xtremeObjectUP = {
   ],
 };
 
-const objetos = { str, strLOW, strUP, arr, arrLOW, arrUP };
-export default LowUp;
+const DataTest = {
+  str,
+  strLOW,
+  strUP,
+  arr,
+  arrLOW,
+  arrUP,
+  object,
+  objectLOW,
+  objectUP,
+  bigObject,
+  bigObjectUP,
+  megaObject,
+  megaObjectUP,
+  xtremeObject,
+  xtremeObjectUP,
+};
+export default DataTest;

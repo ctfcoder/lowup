@@ -4,7 +4,7 @@
   "description": "A simple module to Upper-Lower Case whatever you want...",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha test"
+    "test": "nyc mocha test --require babel-register"
   },
   "repository": {
     "type": "git",
@@ -27,17 +27,14 @@
     "url": "https://github.com/ctfcoder/lowup/issues"
   },
   "homepage": "https://github.com/ctfcoder/lowup#readme",
-  "dependencies": {
-    "babel-core": "^6.26.3",
+  "devDependencies": {
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "chai-as-promised": "^7.1.1",
     "eslint": "^6.1.0",
     "faker": "^4.1.0",
-    "require-dir": "^1.2.0"
-  },
-  "devDependencies": {
+    "require-dir": "^1.2.0",
     "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
     "chai": "^4.2.0",
     "jsdoc": "^3.6.3",
     "mocha": "^6.2.0",
