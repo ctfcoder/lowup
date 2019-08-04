@@ -1,6 +1,6 @@
 {
   "name": "lowup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple module to Upper-Lower Case whatever you want...",
   "main": "lib/index.js",
   "scripts": {
