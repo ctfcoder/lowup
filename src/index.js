@@ -1,5 +1,4 @@
 'use strict';
-let contador = 0;
 /**
  * Set to lowercase all the values from data.
  * @param  data - The data to lowercase.
@@ -26,8 +25,6 @@ const _handler = (data, method, filter) => {
     console.error(error);
     dataUpper = data;
   }
-  console.log(`Vueltas: ${contador}`);
-  contador = 0;
   return dataUpper;
 };
 /**
@@ -37,7 +34,6 @@ const _handler = (data, method, filter) => {
  * @param {Function} filter - Filter what values don´t want to upper/lower-case.
  */
 const _lowerUpper = (data, method, filter) => {
-  contador++;
   let dataUpper;
   if (
     data &&
@@ -57,9 +53,7 @@ const _lowerUpper = (data, method, filter) => {
  * @param  data - The data to upper/lower case.
  * @param {*} method method to execute (toUpperCase | toLowerCase)
  */
-const _lowUp = (value, method) => {
-  return value[method]();
-};
+const _lowUp = (value, method) => value[method]();
 /**
  * Iterates over the array and upper/lower case the data
  * @param {*} array

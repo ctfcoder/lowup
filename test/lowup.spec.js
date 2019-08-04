@@ -1,4 +1,4 @@
-import LowUp from '../src/index';
+import LowUp from '../lib/index';
 import DataTest from './data';
 let chai = require('chai');
 const { should } = chai;
@@ -24,7 +24,7 @@ describe('LowUp', () => {
     xtremeObjectUP,
   } = DataTest;
   let result = null;
-  console.log(`TESTEANDO: ${str}`);
+  console.log(`Testing word: ${str}`);
 
   describe('Testing Limits ', () => {
     it('Should return undefined', () => {
