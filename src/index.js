@@ -73,5 +73,4 @@ const _lowUpObject = (object, method) => {
   });
   return objectUpper;
 };
-const LowUp = { low, up };
-export default LowUp;
+export const LowUp = { low, up };

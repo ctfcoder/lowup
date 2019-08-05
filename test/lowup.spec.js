@@ -1,4 +1,4 @@
-import LowUp from '../lib/index';
+import { LowUp } from '../lib/index';
 import DataTest from './data';
 let chai = require('chai');
 const { should } = chai;
