@@ -6,8 +6,6 @@ Install it like always:
 
 **npm i lowup --save** | **npm install lowup --save**
 
-**yarn add lowup**
-
 And enjoy it... _:D_
 
 ## **HOW TO USE IT . . .**
