@@ -11,3 +11,4 @@ coverage
 out/
 Pruebas/
 .prettier.js
+.gitignore
